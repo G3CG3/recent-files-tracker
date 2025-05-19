@@ -2,7 +2,7 @@ package gr.georgiadis.recentlyopenedfilestracker;
 
 public class Main {
     public static void main(String[] args) {
-        RecentFilesManager manager = new RecentFilesManager(5);
+        RecentFilesTracker manager = new RecentFilesTracker(5);
 
         manager.openFile("file1.txt");
         manager.openFile("file2.txt");

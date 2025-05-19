@@ -3,12 +3,12 @@ package gr.georgiadis.recentlyopenedfilestracker;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-public class RecentFilesManager {
+public class RecentFilesTracker {
     private final LinkedHashSet<String> recentFiles;
     private final int maxSize;
 
     // Constructor: specify max number of recent files to keep
-    public RecentFilesManager(int maxSize) {
+    public RecentFilesTracker(int maxSize) {
         this.maxSize = maxSize;
         this.recentFiles = new LinkedHashSet<>();
     }
